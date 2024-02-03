@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <!-- heading name -->
+     <div class="heading">
+        <h1>Image Gallery</h1>
+     </div>
+
+     <!-- image gallery section all image in one div -->
+     <div class="gallery">
+        <img src="./img/img 1.JPG" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+        
+        <img src="./img/img 2.JPG" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/img 3.JPG" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/img 4.JPG" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/IMG 5.JPG" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/IMG 6.JPG" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/img 7.jpg" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/img 8.JPG" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/IMG 9.JPG" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/IMG 10.JPG" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/img 11.jpg" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/img 12.jpg" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+      
+     </div>
+
+     <!-- image container where image will show in big size -->
+      <div class="image-popup-container" id="imagepopup">
+        <span class="close-button" onclick="closeImage()">*</span>
+        <img src=""alt="popup Image" id="popupImage">
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
